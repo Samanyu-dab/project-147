@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky
+        src="https://imageio.forbes.com/specials-images/imageserve/1176555906/AI-Helping-to-commercialize-space/960x0.jpg?format=jpg&width=960  "
+      ></a-sky>
+
+      <a-plane
+        id="ground"
+        src="https://nextluxury.com/wp-content/uploads/interior-concrete-floor-ideas-with-gold-filler-in-cracks.jpg"
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="20"
+        height="10"
+      ></a-plane>
+
+      <a-plane
+        id="carpet"
+        src="https://thumbs.dreamstime.com/b/gray-shag-rug-texture-close-detail-closeup-thick-fluffy-carpet-background-228926483.jpg"
+        position="0 0.1 0.5"
+        rotation="-90 0 0"
+        width="8"
+        height="5"
+      ></a-plane>
+
+      <a-box
+        id="wall"
+        src="https://imageio.forbes.com/specials-images/imageserve/1176555906/AI-Helping-to-commercialize-space/960x0.jpg?format=jpg&width=960"
+        position="0 6.5 -4.5"
+        width="20"
+        height="13"
+      >
+      </a-box>
+
+      <a-plane
+        id="wall-poster-left"
+        src="https://wallpaper.dog/large/20457667.jpg"
+        position="-5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <a-plane
+        id="wall-poster-middle"
+        src="https://i.pinimg.com/originals/10/35/81/103581ad3841dd4d45df056695313e9e.jpg"
+        position="0 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <a-plane
+        id="wall-poster-right"
+        src="https://i.pinimg.com/736x/1c/f7/19/1cf7196720754d087ab5da6f8e016204.jpg"
+        position="5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <!-- Chair 1  -->
+      <a-cylinder
+        radius="1.2"
+        src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+        position="6.5 -0.4 0"
+      >
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          radius="0.2"
+          position="0 1 0"
+          height="1.2"
+        >
+        </a-cylinder>
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          position="0 1.9 0"
+          rotation="0 0 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          position="0.85 3 0"
+          rotation="90 -90 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+      </a-cylinder>
+
+      <!-- Chair 2  -->
+
+      <a-cylinder
+        src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+        radius="1.2"
+        position="-6.5 -0.4 0"
+      >
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          radius="0.2"
+          position="0 1 0"
+          height="1.2"
+        >
+        </a-cylinder>
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          position="0 1.9 0"
+          rotation="0 0 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          position="-0.85 3 0"
+          rotation="90 -90 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+      </a-cylinder>
+
+      <!-- Dining Table -->
+      <a-box
+        src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+        width="9"
+        height="3.5"
+        position="0 2 0"
+        rotation="90 0 0"
+        depth="0.2"
+      >
+        <a-cylinder
+          src="https://media.istockphoto.com/photos/texture-of-gold-marble-slab-macro-picture-id511749544"
+          height="2"
+          radius="0.8"
+          rotation="90 0 0"
+          position="0 0 1"
+        ></a-cylinder>
+      </a-box>
+
+      <!-- Lamp -->
+
+      <a-cone
+        src="https://m.media-amazon.com/images/I/61pe2IrdYuL._SX342_.jpg"
+        position="0 7.5 0"
+        radius-top="0.5"
+        radius-bottom="2"
+      >
+        <a-sphere scr="https://m.media-amazon.com/images/I/61pe2IrdYuL._SX342_.jpg" position="0 -0.5 0"></a-sphere>
+        <a-cylinder
+          src="https://m.media-amazon.com/images/I/61pe2IrdYuL._SX342_.jpg"
+          radius="0.15"
+          height="4"
+          position="0 2 0"
+        ></a-cylinder>
+      </a-cone>
+
+
+      <a-camera look-controls-enabled wasd-controls-enabled position="0 5 15">
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
+
